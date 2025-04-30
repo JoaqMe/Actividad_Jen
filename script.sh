@@ -1,4 +1,4 @@
-echo "FROM python" >> Dockerfile
+echo "FROM python" > Dockerfile
 echo "RUN apt-get update -y" >> Dockerfile
 echo "RUN apt-get install -y python3-pip" >> Dockerfile
 echo "RUN pip install flask" >> Dockerfile
